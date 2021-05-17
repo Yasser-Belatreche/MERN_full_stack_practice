@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: fit-content;
+}
+
+.container {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+input,
+button {
+    margin-top: 100px;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+}
+
+input {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+button {
+    width: fit-content;
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    width: 100px;
+    background-color: rgb(116, 116, 241);
+}
+
+ul {
+    margin-top: 40px;
+}
+
+li {
+    font-size: 20px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+li p {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.list-item {
+    height: 60px;
+    width: 400px;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px;
+}
+
+i {
+    font-size: 20px;
+    margin: 0;
+}
+
+hr {
+    width: 100px;
+    background-color: blue;
+}
+
+.btn-container {
+    margin: auto 0;
+    margin-right: 10px;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 100px;
+}
+
+.todo-list,
+.done-list {
+    min-height: 400px;
+    width: 700px;
+    padding: 30px;
+    margin-top: 30px;
+    border: 2px solid rgb(233, 214, 214);
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.active {
+    text-decoration: line-through;
+}

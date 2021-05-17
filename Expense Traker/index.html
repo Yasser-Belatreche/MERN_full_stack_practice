@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Expense Tracker</h1>
+            <h4>Add an Item :</h4>
+        </div>
+        <div class="inputs">
+            <label for="name">Name :</label>
+            <input type="text" id="name" class="input input-name" placeholder="Where was the expense made ?">
+
+            <br>
+
+            <label for="date">Date :</label>
+            <input type="date" id="date" class="input input-date">
+
+
+            <label for="amount">Amount :</label>
+            <input type="text" id="amount" class="input input-amount">
+        </div>
+        <div class="btn">
+            <button class="submit-btn">Add Expense</button>
+        </div>
+        <div class="expenses">
+            <table class="table">
+                <thead class="table-header">
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Amount</th>
+                    <th></th>
+                </thead>
+
+                <tbody class="table-data">
+                    <tr class="default">
+                        <td colspan='4' style='color: red; background : #ddd; width : 100%; padding : 10px;'>
+                            No expenses added yet
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>

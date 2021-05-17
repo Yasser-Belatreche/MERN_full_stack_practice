@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 25px;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.header {
+    margin-top: 60px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .title {
+    margin: 30px;
+}
+
+.header .title h1 {
+    font-size: 55px;
+}
+
+.inputs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+.input {
+    width: 60%;
+    max-width: 60%;
+    height: 90px;
+    padding: 10px;
+    outline: none;
+}
+
+.btn {
+    height: 40px;
+    width: fit-content;
+    padding: 2px 20px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.notes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.note {
+    min-width: 350px;
+    max-width: 350px;
+    padding: 20px;
+    flex: 1;
+    background-color: aqua;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.show-more,
+.show-less {
+    margin-bottom: 0;
+    margin-left: 0;
+    text-align: left;
+}

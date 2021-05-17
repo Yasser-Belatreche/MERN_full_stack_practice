@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    width: 88%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 70px;
+}
+
+.header h4 {
+    margin: 20px;
+    font-size: 35px;
+    color: #397B39;
+}
+
+label {
+    font-weight: bold;
+}
+
+.inputs {
+    width: 70%;
+}
+
+.input {
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+    outline: none;
+}
+
+.input.input-name {
+    width: 89%;
+    margin-left: 0;
+}
+
+.submit-btn {
+    background-color: #397B39;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    margin: 20px;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.expenses {
+    width: 90%;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+}
+
+td {
+    background-color: #dddddda8;
+}
+
+.remove-btn {
+    padding: 5px;
+    padding-left: 4px;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: #397B39;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
