@@ -1,0 +1,21 @@
+{
+  "name": "hackit-backend",
+  "version": "1.0.0",
+  "description": "a testing backend for the hackIt3 platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "env": "0.0.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.12.12",
+    "nodemon": "^2.0.7"
+  }
+}
