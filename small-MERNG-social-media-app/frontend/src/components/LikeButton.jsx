@@ -8,7 +8,7 @@ const LikeButton = ({ post: { id, userName, likesCount, likes, user } }) => {
   const [liked, setLiked] = useState(false);
 
   useEffect(() => {
-    if (user && likes.find((like) => like.userName == user.userName)) {
+    if (user && likes.find((like) => like.userName === user.userName)) {
       setLiked(true);
     } else {
       setLiked(false);

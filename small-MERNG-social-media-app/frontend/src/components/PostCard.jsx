@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Card, Icon, Label, Image, Button } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import moment from "moment";
@@ -39,7 +39,6 @@ const PostCard = ({
         <LikeButton post={{ id, userName, likesCount, likes, user }} />
 
         <Button
-          as="div"
           labelPosition="right"
           onClick={handleCommentPost}
           as={Link}

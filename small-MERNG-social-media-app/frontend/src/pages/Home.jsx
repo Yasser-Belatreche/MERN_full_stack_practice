@@ -1,6 +1,5 @@
 import React from "react";
 import { useQuery } from "@apollo/client";
-import gql from "graphql-tag";
 import { Grid, Transition } from "semantic-ui-react";
 import PostCard from "../components/PostCard";
 import PostForm from "../components/PostForm";
@@ -18,9 +17,7 @@ const Home = () => {
       <Grid.Row className="page-title">
         <h1>Recents Posts</h1>
       </Grid.Row>
-      {/* <Grid.Row className="page-title" style={{ width: "70%" }}>
-        
-      </Grid.Row> */}
+
       <Grid.Row>
         {user && (
           <Grid.Column>

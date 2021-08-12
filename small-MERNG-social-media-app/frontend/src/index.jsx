@@ -6,13 +6,11 @@ import reportWebVitals from "./reportWebVitals";
 import AuthProvidre from "./context/auth";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <ApolloProvider>
-      <AuthProvidre>
-        <App />
-      </AuthProvidre>
-    </ApolloProvider>
-  </React.StrictMode>,
+  <ApolloProvider>
+    <AuthProvidre>
+      <App />
+    </AuthProvidre>
+  </ApolloProvider>,
   document.getElementById("root")
 );
 
